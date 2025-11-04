@@ -11,6 +11,7 @@ on:
     paths-ignore:
       - 'example/**'
       - 'third_party/**'
+  workflow_call:
 
 jobs:
   test:
